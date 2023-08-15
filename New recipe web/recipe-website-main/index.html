@@ -1,0 +1,127 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Food and Recipe Finder web</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Roboto+Condensed:wght@700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel = "stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-wrapper cyan">
+      <span id="header" class="brand-logo center">Recipe web </span>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+    </div>
+  </nav>
+  
+
+<div id="main-content">
+  <div class="row">
+      <div class="col m6 l4 s12">
+        <div class="card" id="#saved-recipes">
+          <div class="card-content">
+
+            <span class="card-title">FAVOURITE RECIPES<a class="waves-effect waves-light btn-small right red" id= "delete-saved">clear saved</a></span>
+            <ul class="collection">
+              <!-- saved recipes will be appended here as <li class="collection-item"> -->
+            
+            
+            </ul>       
+          </div>
+          
+        </div>
+      </div>
+      <div class="video-container">
+        <video autoplay loop muted>
+            <source src="video.mp4" type="video/mp4">
+        </video>
+    </div>
+    <div class="col m6 l6 s12">
+      <div class="card"  id="recipe-search">
+        <div class="card-content">
+          <span class="card-title"> SEARCH RECIPE HERE</span>
+          <p>Tell us what you have in your pantry and we'll find a recipe containing your ingredients. Enter your ingredients (press enter after each ingredient to add it to your list) , click Find A Recipe, and then click on a result to expand!</p>
+          <div class="chips chips-placeholder" id= "ing-input"></div>
+          <button class="waves-effect waves-light btn model-tigger pink lighten-1" id="search">Find a recipe
+          </button>
+          <!-- nutrition info modal shows up when we press nutrition-info button -->
+          <div id="nutrition-info" class="modal">
+            <div class="modal-content">
+              <h4>Nutrition Value</h4>
+              <table class="centered striped">
+                <thead>
+                  <tr>
+                    <th>Nutrition</th>
+                    <th>Value(%)</th>
+                    </tr>
+                </thead>
+                <tr id= "calcium">
+                  <td>calcium</td>
+                  <td id= "calc-val"></td>
+                </tr>
+                <tr id= "carbs">
+                  <td>carbs</td>
+                  <td id= "carbs-val"></td>
+                </tr>
+                <tr id= "cholestrol">
+                  <td>cholestrol</td>
+                  <td id= "cholestrol-val"></td>
+                </tr>
+                <tr id= "fat">
+                  <td>fat</td>
+                  <td id= "fat-val"></td>
+                </tr>
+                <tr id= "potassium">
+                  <td>potassium</td>
+                  <td id= "potassium-val"></td>
+                </tr>
+                <tr id= "magnesium">
+                  <td >magnesium</td>
+                  <td id = "magnesium-val"></td>
+                </tr>
+                <tr id="sodium">
+                  <td>sodium</td>
+                  <td id= "sodium-val"></td>
+                </tr>
+                 <tr id="iron">
+                  <td>iron</td>
+                  <td id= "iron-val"></td>
+                </tr>
+                <tr id= "fiber">
+                  <td>fiber</td>
+                  <td id= "fiber-val"></td>
+                </tr>
+              </table>
+            </div>
+            <div class="modal-footer">
+              <a href="#!" class="modal-close waves-effect waves-green btn-flat">close</a>
+            </div>
+          </div>
+          
+          <!-- On button press, create <div class="card-content" id="recipe-results">, <ul class="collapsible z-depth-3"> within newly created div, and <li> within UL. Each <li> will have 3 divs, 2 buttons, and 1 modal. See example below for required classes and structure. -->
+
+
+          <div class="card-content" id="recipe-results"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+</div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <script src="assets/scripts.js"></script>
+
+  </body>
+  <footer>
+
+  </footer>
+  </html>
+

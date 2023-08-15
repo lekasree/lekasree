@@ -1,0 +1,65 @@
+/* Stylesheet */
+#saved-recipes{
+    margin:auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Hides horzontal scrollbar */
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+video {
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    z-index: -1;
+}
+
+.content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: 50px;
+    border-radius: 10px;
+}
+.card-title{
+    color:navy;
+    font-weight: bolder;
+}
+
+#nav-wrapper{
+    height:auto;
+}
+#header {
+    font-family: 'Roboto Condensed';
+    font-size:2.5rem;
+    
+}
+
+
+
+.btn {
+    margin-top:2%;
+}
+
+
+@media (min-width: 768px) {
+    #recipe-search{
+        margin-left:10%;
+    }
+    #main-content{
+        margin-top:2.5%;
+        margin-left:10%;
+    
+    }
+    
+}
