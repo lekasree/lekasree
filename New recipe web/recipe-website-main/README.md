@@ -1,9 +1,4 @@
-## Recipe Finder
 
-![lang](https://img.shields.io/github/languages/count/justinyates887/recipe-website?logoColor=yellow)
-![lines](https://img.shields.io/tokei/lines/github/justinyates887/recipe-website)
-![open](https://img.shields.io/github/issues-raw/justinyates887/recipe-website)
-![closed](https://img.shields.io/github/issues-closed-raw/justinyates887/recipe-website)
 
 ### user Story
 
@@ -19,17 +14,7 @@
 
 **SO THAT:** I can make a meal with the instructions provided based on the ingredients I have
 
----------------------------------------------------------------------------------------------------------------------------
-
-### Developers:
-
-[Vinitha Kumar](https://github.com/selvivini)
-
-[Carly Gouge](https://github.com/cgouge93)
-
-[Justin Yates](https://github.com/justinyates887)
-
----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Description:
 
