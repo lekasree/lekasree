@@ -1,0 +1,202 @@
+body {
+    background-color: #061612;
+     flex-wrap: wrap;
+}
+nav {
+    background-color:  #3d6a5a;
+    display: flex;
+    top: 0;
+    z-index: 1000;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    color: #ecfdf5;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+nav a{
+    color:#ecfdf5;
+    text-decoration: none;
+    padding:10px;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.logo,.btn {
+    color:#24230b;
+    font-weight: bold;
+    font-size: x-large;
+}
+a:hover{
+   color:#ecfdf5 
+}
+
+header{
+    background-image: url("https://p1-ofp.static.pub/ShareResource/na/faqs/img/lenovo-laptops-small-banner.jpg");
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0%;
+    color:#0b241e;
+}
+.btn 
+{
+        background-color: #0b241e;
+        border-radius: 35px;
+        text-decoration: none;
+        padding: 20px;
+        margin: 10px;
+        color:#fbbf24;
+        font-size: medium;
+}
+.hero {
+    padding:10px;
+    padding-left: 50px;
+    padding-top: 120px;
+}
+#headerBut {
+    margin-top: 30px; /* Adjust this value to get the exact space you want */
+    display: inline-block; /* Ensures margin works correctly on anchor tags */
+}
+.container {
+     margin: 20px;
+     padding: 10px;
+}
+main img {
+    width: 250px;
+    height: 250px;
+}
+.card{
+    background-color: #40675f;
+    padding: 30px;
+     margin: 10px;
+}
+.card:hover{
+    background-color: #e4c67b;
+     transform: translateY(-5px);
+   
+}
+.grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #041914;
+    flex-wrap: wrap;
+}
+main > h2 {
+    color: #ecfdf5;
+}
+
+.features{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #ecfdf5;
+    flex-wrap: wrap;
+    background-color: #0b241e;
+    padding: 20px;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.feature-icon {
+    font-size: 3rem ;
+}
+.feature-card:hover {
+    transform: translateY(-5px);
+}
+
+.site-footer {
+    background-color:#7cb3a9; /* Slightly darker than the main background */
+    padding: 4rem 5% 1rem 5%;
+    border-top: 1px solid black ;
+    margin-top: 5rem;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin-bottom: 3rem;
+}
+
+.footer-col h4 {
+    color: #0b241e;
+    margin-bottom: 1.5rem;
+    font-size: 1.1rem;
+    position: relative;
+}
+
+/* Adds a small blue line under the footer headings */
+.footer-col h4::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 30px;
+    height: 2px;
+    background-color: var(--primary);
+}
+
+.footer-col p {
+    color:#0b241e;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.footer-col ul {
+    list-style: none;
+}
+
+.footer-col ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer-col ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.footer-col ul li a:hover {
+    color:  #f1ca68;
+    padding-left: 5px;
+}
+
+/* Newsletter Input Styling */
+.footer-subscribe {
+    display: flex;
+    gap: 5px;
+}
+
+.footer-subscribe input {
+    background: var(--surface);
+    border: 1px solid #334155;
+    padding: 0.6rem;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+}
+
+.footer-bottom {
+    text-align: center;
+    padding-top: 2rem;
+    border-top: 1px solid #334155;
+    color: var(--text-muted);
+    font-size: 0.8rem;
+}
+.logo{
+    color: #fbbf24;
+    font-weight: bold;
+}
